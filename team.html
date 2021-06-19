@@ -1,73 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ASCE IIT (ISM) Dhanbad</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" sizes="sizes="192x192sizes="100*100" type="image/gif/png" href="image/logo.jpg">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="CSS/mobile.css">
-    <script src="https://kit.fontawesome.com/b9327e5f49.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      sizes="sizes="
+      192x192sizes="100*100"
+      type="image/gif/png"
+      href="image/logo.jpg"
+    />
 
-    <header>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/flip-card.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="CSS/mobile.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/b9327e5f49.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar fixed-top">
+      <div>
         <div>
-            <div>
-               <a href="index.html"><img id="head-logo" src="image/logo.jpg" alt=""></a> 
-            </div>
-            <label id="hamburger" for="toggle">&#9776;</label>
-            <input id="toggle" type="checkbox">
-            <div class="mobile-container" id="navbar">
-                    <ul class="myLinks">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a class="current" href="team.html">Team</a></li>
-                        <li><a href="advisors.html">Advisors</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
-
-                    </ul>
-            </div>
+          <a href="index.html"
+            ><img id="head-logo" src="image/logo.jpg" alt=""
+          /></a>
         </div>
+        <label id="hamburger" for="toggle">&#9776;</label>
+        <input id="toggle" type="checkbox" />
+        <div class="mobile-container" id="navbar">
+          <ul class="myLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a class="current" href="team.html">Team</a></li>
+            <li><a href="advisors.html">Advisors</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
 
+    <section class="flip-card-body" id="profile-flip-card"></section>
 
     <div id="footer">
-        <div id="footer-top">
-            <div id="bottomLogos" class="centered">
-                    <img id="asceLogo" src="image/logo.jpg" alt="">
-                    <img id="ismLogo" src="image/ism-logo.png" alt="">
-                    <p>ASCE Student Chapter <br> IIT (ISM) Dhanbad</p>
-            </div>
-            
-            <div id="location" class="centered">
-                <h3>Location</h3>
-                <p>Department of Civil Engineering, IIT (ISM) Dhanbad, India - 826004</p>
-            </div>
-            <div id="otherLinks" class="centered">
-                <h3>Other Links</h3>
-                <ul>
-                    <li><a href="https://www.asce.org/" target="_blank">ASCE international</a></li>
-                    <li><a href="">Department Website</a></li>
-                    <li><a href="https://iitism.ac.in/" target="_blank">IIT (ISM) Dhanbad Official Website</a></li>
-                </ul>
-            </div>
+      <div id="footer-top">
+        <div id="bottomLogos" class="centered">
+          <img id="asceLogo" src="image/logo.jpg" alt="" />
+          <img id="ismLogo" src="image/ism-logo.png" alt="" />
+          <p>
+            ASCE Student Chapter <br />
+            IIT (ISM) Dhanbad
+          </p>
         </div>
 
-        <div id="footer-bottom">
-            <div id="copyright" class="centered">
-                <p>Copyright &copy; 2021 All rights reserved | ASCE IIT (ISM) Dhanbad Student Chapter</p>
-            </div>
-            <div id="social-media"class="centered">
-                <p>Follow us on</p>
-                <div id="social-media-icons">
-                    <a href=""><i class="fab fa-facebook-f"></i></a></i>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
+        <div id="location" class="centered">
+          <h3>Location</h3>
+          <p>
+            Department of Civil Engineering, IIT (ISM) Dhanbad, India - 826004
+          </p>
         </div>
+        <div id="otherLinks" class="centered">
+          <h3>Other Links</h3>
+          <ul>
+            <li>
+              <a href="https://www.asce.org/" target="_blank"
+                >ASCE international</a
+              >
+            </li>
+            <li><a href="">Department Website</a></li>
+            <li>
+              <a href="https://iitism.ac.in/" target="_blank"
+                >IIT (ISM) Dhanbad Official Website</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="footer-bottom">
+        <div id="copyright">
+          <p>
+            Copyright &copy; 2021 All rights reserved | ASCE IIT (ISM) Dhanbad
+            Student Chapter
+          </p>
+        </div>
+        <div id="social-media">
+          <p>Follow us on</p>
+          <div id="social-media-icons">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
-    
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="JS/script.js"></script>
+  </body>
 </html>
